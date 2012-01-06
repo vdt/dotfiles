@@ -23,10 +23,10 @@ if [ -f ~/.bash_ssh_agent ]; then
     . ~/.bash_ssh_agent
 fi
 
-# git completion
+# git completion and set prompt
 if [ -f ~/.bash_git_completion.sh ]; then
     . ~/.bash_git_completion.sh
+    PS1='\[\033[01;34m\]\u@\h\[\033[00m\]:\w$(__git_ps1 " (%s)")\$ '
+else
+    PS1='\[\033[01;34m\]\u@\h\[\033[00m\]:\w\$ '
 fi
-
-# Set prompt
-PS1='\[\033[01;34m\]\u@\h\[\033[00m\]:\w$(__git_ps1 " (%s)")\$ '
