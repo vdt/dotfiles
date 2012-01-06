@@ -1,0 +1,11 @@
+# vim: syntax=sh
+
+# Environment
+export PAGER=less
+export EDITOR=vim
+
+# IRC
+export IRCNICK="wintercni"
+export IRCNAME="Chris Winter"
+export CLICOLOR=1
+
