@@ -1,0 +1,17 @@
+hardstatus on
+hardstatus alwayslastline "%-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%< %=%D %M %d %c"
+hardstatus string '%{= kK}%-Lw%{= KW}%50>%n%f %t%{= kK}%+Lw%< %{=kG}%-= %H %d%M %c:%s%{-}'
+
+shell -${SHELL}
+shelltitle ''
+
+autodetach on
+
+vbell off
+
+startup_message off
+
+defscrollback 1000
+
+defbce on
+term screen
