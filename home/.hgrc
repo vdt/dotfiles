@@ -1,0 +1,32 @@
+[ui]
+username = Chris Winter <wintercni@gmail.com>
+editor = vim
+ssh = ssh -C
+
+[defaults]
+diff = -g
+cdiff = -q
+
+[diff]
+git = True
+showfunc = True
+
+[extensions]
+hgk =
+mq =
+extdiff =
+email =
+patchbomb =
+
+[extdiff]
+cmd.cdiff = colordiff
+opts.cdiff = -uprN
+
+[email]
+method = smtp
+
+[smtp]
+host = smtp.gmail.com
+tls = True
+username = wintercni@gmail.com
+#password =
