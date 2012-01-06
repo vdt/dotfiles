@@ -1,0 +1,15 @@
+[user]
+    name = Chris Winter
+    email = wintercni@gmail.com
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = true
+    ui = auto
+
+[alias]
+    ci = commit
+    di = diff --color-words
+    st = status
